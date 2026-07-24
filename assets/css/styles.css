@@ -171,6 +171,25 @@ img { max-width: 100%; display: block; }
   display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 56px;
   align-items: center; padding: 84px 24px 96px;
 }
+
+/* decorative influenza virus particles floating in the hero background */
+.hero-virus-bg { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
+.hero-virus-bg .virus { position: absolute; animation: virus-float ease-in-out infinite; }
+.hero-virus-bg .v1 { width: 128px; top: 4%; right: 5%; color: var(--primary-lt); opacity: .16; animation-duration: 11s; }
+.hero-virus-bg .v2 { width: 76px; top: 52%; right: 24%; color: var(--accent); opacity: .13; animation-duration: 8s; animation-delay: -2s; }
+.hero-virus-bg .v3 { width: 56px; top: 16%; left: 3%; color: var(--hi); opacity: .18; animation-duration: 10s; animation-delay: -4s; }
+.hero-virus-bg .v4 { width: 96px; bottom: 3%; left: 20%; color: var(--primary); opacity: .12; animation-duration: 12s; animation-delay: -6s; }
+.hero-virus-bg .v5 { width: 44px; bottom: 20%; right: 42%; color: var(--accent); opacity: .14; animation-duration: 7s; animation-delay: -1s; }
+@keyframes virus-float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-16px) rotate(10deg); }
+}
+@media (max-width: 720px) {
+  .hero-virus-bg .v3, .hero-virus-bg .v5 { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-virus-bg .virus { animation: none; }
+}
 .hero-copy .eyebrow {
   display: inline-block; font-size: 12.5px; letter-spacing: 2px;
   text-transform: uppercase; font-weight: 600; color: var(--primary-lt);
