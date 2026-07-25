@@ -294,26 +294,27 @@ section { padding: 76px 0; }
 }
 .focus-list li b { color: var(--ink); }
 
-/* ---------- PI profile ---------- */
+/* ---------- PI profile (matches the .member card format) ---------- */
 .pi-card {
-  display: flex; flex-direction: column; align-items: center; text-align: center;
+  max-width: 480px; margin: 0 auto;
   background: var(--white); border: 1px solid var(--line);
-  border-radius: var(--radius); padding: 48px 34px 40px;
+  border-radius: var(--radius); overflow: hidden;
+  transition: transform .18s, box-shadow .18s;
 }
+.pi-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
 .pi-photo {
-  width: clamp(220px, 30vw, 320px); aspect-ratio: 3/4; border-radius: 12px; overflow: hidden;
+  aspect-ratio: 3/4;
   background: linear-gradient(135deg, var(--primary-lt), var(--primary-dk));
   display: grid; place-items: center; color: #fff;
   font-family: var(--display); font-size: 56px; font-weight: 500;
-  margin-bottom: 28px; box-shadow: var(--shadow);
 }
 .pi-photo img { width: 100%; height: 100%; object-fit: cover; }
-.pi-info { max-width: 480px; }
-.pi-info h2 { font-family: var(--display); font-weight: 600; font-size: 28px; }
+.pi-info { padding: 28px 32px 34px; }
+.pi-info h2 { font-family: var(--display); font-weight: 600; font-size: 27px; }
 .pi-info .pi-ko { color: var(--muted); font-size: 16px; margin-top: 2px; }
-.pi-info .pi-role { color: var(--accent); font-weight: 600; font-size: 14.5px; margin: 10px 0 4px; }
-.pi-info .pi-aff { color: var(--ink-soft); font-size: 15px; }
-.pi-info .pi-contact { margin-top: 14px; display: grid; justify-items: center; gap: 4px; font-size: 15px; }
+.pi-info .pi-role { color: var(--accent); font-weight: 600; font-size: 14.5px; margin: 12px 0 5px; }
+.pi-info .pi-aff { color: var(--ink-soft); font-size: 15.5px; }
+.pi-info .pi-contact { margin-top: 14px; display: grid; gap: 4px; font-size: 15.5px; }
 .pi-info .pi-contact a { color: var(--primary); font-weight: 600; }
 .pi-block { margin-top: 30px; }
 .pi-block h3 {
@@ -454,7 +455,6 @@ section { padding: 76px 0; }
   .dropdown a:hover { background: var(--paper-2); color: var(--primary); }
   .dropdown a.active { color: var(--primary); }
   .grid-3, .grid-2, .member-grid { grid-template-columns: 1fr; }
-  .pi-card { padding: 36px 22px 32px; }
   .footer-top { flex-direction: column; }
   section { padding: 56px 0; }
   .brand .name { font-size: 14px; }
