@@ -20,7 +20,7 @@ window.NEWS = [
   {
     date: "2026.04.22",
     title: "Lab outing",
-    image: "",
+    image: "assets/img/news_20260422.jpg",
     body: [
       "실험실 구성원들과 함께한 즐거운 시간이었습니다 🤗"
     ]
@@ -44,7 +44,7 @@ window.NEWS = [
   {
     date: "2025.12.22",
     title: "Lab outing at VIPS",
-    image: "",
+    image: "assets/img/news_20251222.jpg",
     body: [
       "한 해를 마무리하며 실험실 구성원들과 함께한 송년 모임이었습니다."
     ]
@@ -76,7 +76,7 @@ window.NEWS = [
   {
     date: "2025.10.20~23",
     title: "10th ESWI Influenza Conference 2025 — Valencia, Spain",
-    image: "",
+    image: "assets/img/news_20251020.jpg",
     body: [
       "스페인 발렌시아에서 열린 제10회 ESWI Influenza Conference 2025에 참가했습니다."
     ]
