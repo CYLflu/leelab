@@ -12,7 +12,7 @@ window.NEWS = [
   {
     date: "2026.05.22",
     title: "대한인수공통감염병학회 춘계학술대회",
-    image: "",
+    images: ["assets/img/news_20260522_1.jpg", "assets/img/news_20260522_2.jpg"],
     body: [
       "2026년도 대한인수공통감염병학회 춘계학술대회에 참가했습니다. (서울대학교)"
     ]
