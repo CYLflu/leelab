@@ -11,28 +11,28 @@ window.PUBLICATIONS = [
     year: "2026",
     title: "From traumatic oral fibroma to fatal pneumonia: a multidisciplinary postmortem investigation in a long-term monitored Indo-Pacific bottlenose dolphin (Tursiops aduncus).",
     url: "https://link.springer.com/article/10.1186/s40850-026-00277-z",
-    authors: "Ji-Hyung Park, Kyung Lee Lee, Young Min Lee, Ji Yeong Choi, Yu Ri Heo, Seung Mok Oh, Dasom Lee, Sunmin Kim, Heon Woo Lee, Cherry Tsz Ching Poon, Won Hee Hong, Hyo-Bang Moon, Sori Mok, <b>Chung-Young Lee</b>, Min-Ah Kim, Adams Hei Long Yuen, Seung Hyeok Seok, Byung Yeop Kim, Sang Wha Kim",
+    authors: "Ji-Hyung Park, Kyung Lee Lee, Young Min Lee, Ji Yeong Choi, Yu Ri Heo, Seung Mok Oh, Dasom Lee, Sunmin Kim, Heon Woo Lee, Cherry Tsz Ching Poon, Won Hee Hong, Hyo-Bang Moon, Sori Mok, <b>Chung-Young Lee</b>, <b>Min-Ah Kim</b>, Adams Hei Long Yuen, Seung Hyeok Seok, Byung Yeop Kim, Sang Wha Kim",
     venue: "BMC Zoology (2026)", impact: ""
   },
   {
     year: "2026",
     title: "Pathogenicity and zoonotic potential of a novel pdm09-lineage H1N2 swine influenza A virus spatiotemporally linked to transboundary pig trade.",
     url: "",
-    authors: "Seung-Chai Kim, Hwan-Ju Kim, Bitgoeul Kim, Gyeong-Seo Park, Byeong-Joo Seo, Chonghan Kim, Chang-Gi Jeong, Jae-Ku Oem, Sung-Hyun Moon, Se-Kyung Jung, Yeonsu Oh, Ho-Seong Cho, Yu Kyung Kim, <b>Chung-Young Lee</b><sup>*</sup>, Won-Il Kim<sup>*</sup>",
+    authors: "Seung-Chai Kim, Hwan-Ju Kim, <b>Bitgoeul Kim</b>, Gyeong-Seo Park, Byeong-Joo Seo, Chonghan Kim, Chang-Gi Jeong, Jae-Ku Oem, Sung-Hyun Moon, <b>Se-Kyung Jung</b>, Yeonsu Oh, Ho-Seong Cho, Yu Kyung Kim, <b>Chung-Young Lee</b><sup>*</sup>, Won-Il Kim<sup>*</sup>",
     venue: "Under review", impact: ""
   },
   {
     year: "2026",
     title: "Enhanced mammalian adaptation of H3N2 canine influenza virus via PB2-G590S.",
     url: "",
-    authors: "Jisu Lee, Bitgoeul Kim, Min-Ah Kim, Se-Kyung Jung, Se-Hee An, Gyeong-Beom Heo, <b>Chung-Young Lee</b><sup>*</sup>",
+    authors: "<b>Jisu Lee</b>, <b>Bitgoeul Kim</b>, <b>Min-Ah Kim</b>, <b>Se-Kyung Jung</b>, Se-Hee An, Gyeong-Beom Heo, <b>Chung-Young Lee</b><sup>*</sup>",
     venue: "Under review", impact: ""
   },
   {
     year: "2026",
     title: "Current insights into bacterial secondary infection following influenza A virus infection.",
     url: "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1851115/full",
-    authors: "Jeong-Hoo Seo, Ye-Ji Seo, Hong-Yeoul Ryu, Minsang Shin, <b>Chung-Young Lee</b><sup>*</sup>",
+    authors: "<b>Jeong-Hoo Seo</b>, <b>Ye-Ji Seo</b>, Hong-Yeoul Ryu, Minsang Shin, <b>Chung-Young Lee</b><sup>*</sup>",
     venue: "Frontiers in Microbiology (2026) 17: 1851115", impact: ""
   },
   {
@@ -88,7 +88,7 @@ window.PUBLICATIONS = [
     year: "2025",
     title: "Evolution and Spread of Y280-Lineage H9N2 Low Pathogenicity Avian Influenza Viruses in Korea, 2020-2023.",
     url: "https://onlinelibrary.wiley.com/doi/10.1155/tbed/8009335",
-    authors: "Andrew Y. Cho, Tae-Hyeon Kim, Heesu Lee, Sun-Hak Lee, Yeram Seo, Bitgoeul Kim, <b>Chung-Young Lee</b>, Sungsu Youk, Jung-Hoon Kwon, Chang-Seon Song, Dong-Hun Lee",
+    authors: "Andrew Y. Cho, Tae-Hyeon Kim, Heesu Lee, Sun-Hak Lee, Yeram Seo, <b>Bitgoeul Kim</b>, <b>Chung-Young Lee</b>, Sungsu Youk, Jung-Hoon Kwon, Chang-Seon Song, Dong-Hun Lee",
     venue: "Transboundary and Emerging Diseases (2025)", impact: ""
   },
   {
@@ -102,7 +102,7 @@ window.PUBLICATIONS = [
     year: "2025",
     title: "Machine learning assessment of zoonotic potential in avian influenza viruses using PB2 segment.",
     url: "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-11589-8",
-    authors: "Sangwook Kim, Min-Ah Kim, Bitgoeul Kim, Jisu Lee, Se-Kyung Jung, Jonghong Kim, Ho-Young Chung, <b>Chung-Young Lee</b><sup>*</sup>, Sungmoon Jeong<sup>*</sup>",
+    authors: "Sangwook Kim, <b>Min-Ah Kim</b>, <b>Bitgoeul Kim</b>, <b>Jisu Lee</b>, <b>Se-Kyung Jung</b>, Jonghong Kim, Ho-Young Chung, <b>Chung-Young Lee</b><sup>*</sup>, Sungmoon Jeong<sup>*</sup>",
     venue: "BMC Genomics (2025) 26: 395", impact: ""
   },
   {
