@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="knuLogoHost" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c8544a"/>
+      <stop offset="100%" stop-color="#6d1c16"/>
+    </linearGradient>
+  </defs>
+  <circle cx="84" cy="100" r="52" fill="url(#knuLogoHost)"/>
+  <circle cx="124" cy="100" r="52" fill="none" stroke="#d64f3f" stroke-width="6.5"/>
+  <g stroke="#d64f3f" stroke-width="6.5" stroke-linecap="round">
+    <line x1="137.5" y1="49.8" x2="141.1" y2="36.3"/>
+    <line x1="171.1" y1="78.0" x2="183.8" y2="72.1"/>
+    <line x1="171.1" y1="122.0" x2="183.8" y2="127.9"/>
+    <line x1="137.5" y1="150.2" x2="141.1" y2="163.8"/>
+  </g>
+  <g fill="#d64f3f">
+    <circle cx="141.1" cy="36.3" r="5.5"/>
+    <circle cx="183.8" cy="72.1" r="5.5"/>
+    <circle cx="183.8" cy="127.9" r="5.5"/>
+    <circle cx="141.1" cy="163.8" r="5.5"/>
+  </g>
+  <circle cx="106" cy="100" r="4.5" fill="#fbf7f6"/>
+</svg>
