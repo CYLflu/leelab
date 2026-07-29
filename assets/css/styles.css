@@ -513,3 +513,31 @@ section { padding: 76px 0; }
   color: var(--primary-lt); letter-spacing: .3px;
 }
 .news-list .txt { font-size: 15.5px; color: var(--ink); }
+
+/* ---------- Journal Club ---------- */
+.jc-list { list-style: none; display: grid; gap: 22px; }
+.jc-card {
+  display: block; list-style: none;
+  background: var(--white); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 30px 32px;
+  transition: transform .18s, box-shadow .18s, border-color .18s;
+}
+.jc-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: transparent; }
+.jc-card .jc-date {
+  font-size: 12.5px; font-weight: 600; letter-spacing: 1.4px; text-transform: uppercase;
+  color: var(--accent);
+}
+.jc-card h3 {
+  font-family: var(--display); font-weight: 600; font-size: 19.5px; line-height: 1.35;
+  color: var(--ink); margin: 8px 0 6px;
+}
+.jc-card .jc-citation { font-size: 13.5px; color: var(--muted); margin-bottom: 16px; }
+.jc-card .jc-summary p { font-size: 15.5px; color: var(--ink-soft); margin-bottom: 10px; }
+.jc-card .jc-summary p:last-child { margin-bottom: 0; }
+.jc-card .jc-pdf {
+  display: inline-flex; align-items: center; gap: 6px; margin-top: 18px;
+  font-size: 13.5px; font-weight: 600; color: var(--primary);
+  border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px;
+  transition: background .18s, border-color .18s;
+}
+.jc-card .jc-pdf:hover { background: var(--paper-2); border-color: var(--primary-lt); }

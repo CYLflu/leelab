@@ -48,7 +48,36 @@ news-data.js 파일 맨 위에 아래 소식을 새로 추가해줘.
 
 > 사진이 여러 장이면 "assets/img/사진1.jpg, 사진2.jpg 를 넣어줘" 라고 하면 첫 장이 표지, 나머지는 갤러리로 나옵니다. 사진을 안 넣으면 남색 배경 카드로 표시됩니다. 소식은 한 페이지에 10개씩 나뉘어 보입니다.
 
-### 3) 구성원(대학원생) 추가하기
+### 3) Journal Club에 논문 올리기
+
+Journal Club은 **저널(논문) PDF 파일을 올리면, 그 논문을 한글로 요약해서 보여주는 페이지**입니다 (`journal-club.html`). 상단 메뉴에서 News 바로 옆에 있습니다.
+
+```         
+저널 PDF 파일을 하나 첨부하면서: "이 논문으로 Journal Club에 새 글 추가해줘."
+```
+
+> PDF 파일을 채팅에 첨부(또는 파일 경로를 알려주기)만 하면 Codex가 논문을 읽고, 한글 요약을 작성하고, `assets/pdf` 폴더에 파일을 정리해 넣고, `journal-club-data.js`에 새 항목을 추가하는 것까지 전부 대신 해줍니다. 날짜나 발표자를 지정하고 싶으면 함께 적어주세요. 예) "발표일은 2026.08.05로 해줘."
+
+직접 손으로 추가하고 싶다면 `assets/js/journal-club-data.js` 파일 맨 위에 아래 형식으로 추가하면 됩니다.
+
+```js
+{
+  date: "2026.08.05",
+  title: "원문 논문 제목 (영어 그대로)",
+  citation: "저자들, <i>저널명</i> (연도) 권(호): 페이지.",
+  pdf: "assets/pdf/파일명.pdf",   // assets/pdf 폴더에 PDF를 넣고 파일명을 적으세요
+  summary: [
+    "첫 번째 문단 — 배경과 연구 목적.",
+    "두 번째 문단 — 실험 방법 요약.",
+    "세 번째 문단 — 주요 결과.",
+    "네 번째 문단 — 의의·시사점."
+  ]
+}
+```
+
+> 논문은 최신 것이 맨 위로 오도록 넣으면 되고, 연도별 정리는 필요 없습니다(발표일 순서로만 나열). 한 페이지에 10개씩 나뉘어 보입니다. PDF 링크를 클릭하면 새 탭에서 원문 PDF가 열립니다.
+
+### 4) 구성원(대학원생) 추가하기
 
 ```         
 people.html 의 "Graduate Students" 섹션에 새 학생 카드를 추가해줘.
@@ -60,21 +89,21 @@ people.html 의 "Graduate Students" 섹션에 새 학생 카드를 추가해줘.
 
 > 학생 사진을 함께 넣고 싶으면, 사진 파일을 `assets/img` 폴더에 넣은 뒤 "사진은 assets/img/mem_hong.jpg 를 써줘" 라고 한 줄 덧붙이면 됩니다. 졸업생은 "Lab Alumni" 섹션에 같은 방식으로 추가하면 됩니다.
 
-### 4) 교수님 소개(Principal Investigator) 수정하기
+### 5) 교수님 소개(Principal Investigator) 수정하기
 
 ```         
 about.html 의 Professional Experience(경력) 부분에 아래 내용을 추가해줘.
 - 2026.01 – 현재  ○○ 학회 이사
 ```
 
-### 5) 사진 넣기 (교수님 사진, 구성원 사진)
+### 6) 사진 넣기 (교수님 사진, 구성원 사진)
 
 ```         
 ① 사진 파일을 assets/img 폴더에 넣기 (예: pi.jpg)
 ② Codex 에게: "about.html 의 PI 사진을 assets/img/pi.jpg 로 넣어줘. 지금은 CL 글자만 나와."
 ```
 
-### 6) 글자·메뉴·문구 바꾸기
+### 7) 글자·메뉴·문구 바꾸기
 
 ```         
 index.html 첫 화면 소개 문구를 아래 내용으로 바꿔줘.
@@ -85,7 +114,7 @@ index.html 첫 화면 소개 문구를 아래 내용으로 바꿔줘.
 연락처(Contact) 페이지의 이메일을 새 주소로 바꿔줘.
 ```
 
-### 7) 색상 바꾸기
+### 8) 색상 바꾸기
 
 ```         
 사이트 전체 강조 색을 지금의 파란색에서 조금 더 진한 남색 계열로 바꿔줘.
@@ -127,18 +156,22 @@ leelab-site/
 ├─ people.html         # Team › Members (구성원 · 졸업생)
 ├─ publications.html   # Publication (논문 목록)
 ├─ news.html           # News (소식)
+├─ journal-club.html   # Journal Club (논문 PDF + 한글 요약)
 ├─ contact.html        # Contact (연락처)
 └─ assets/
    ├─ css/styles.css           # 전체 디자인 · 색상
    ├─ img/                      # 로고 · 사진 파일 넣는 곳
-   │   ├─ logo.jpg              #   로고
+   │   ├─ logo.svg               #   로고
    │   └─ favicon.ico           #   브라우저 탭 아이콘
+   ├─ pdf/                      # Journal Club 논문 원문 PDF 넣는 곳
    └─ js/
       ├─ main.js                # 공통 기능 (메뉴 · 페이지 넘김)
       ├─ publications-data.js   # ★ 논문 목록 데이터 (논문은 여기만 고침)
       ├─ render-pubs.js         # 논문 화면에 그리는 부분 (건드릴 필요 없음)
       ├─ news-data.js           # ★ 소식 데이터 (News 는 여기만 고침)
-      └─ render-news.js         # 소식 화면에 그리는 부분 (건드릴 필요 없음)
+      ├─ render-news.js         # 소식 화면에 그리는 부분 (건드릴 필요 없음)
+      ├─ journal-club-data.js   # ★ Journal Club 데이터 (여기만 고침)
+      └─ render-journal-club.js # Journal Club 화면에 그리는 부분 (건드릴 필요 없음)
 ```
 
-상단 메뉴는 **Home · Team · Publication · News · Contact** 로 구성되고, **Team** 안에 **Principal Investigator**(`about.html`)와 **Members**(`people.html`)가 하위로 들어가 있습니다. 논문과 소식은 각각 한 페이지에 10개씩 나뉘어 보입니다.
+상단 메뉴는 **Home · Team · Publication · News · Journal Club · Contact** 로 구성되고, **Team** 안에 **Principal Investigator**(`about.html`)와 **Members**(`people.html`)가 하위로 들어가 있습니다. 논문·소식·Journal Club은 각각 한 페이지에 10개씩 나뉘어 보입니다.
