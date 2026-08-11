@@ -9,6 +9,13 @@
 window.PUBLICATIONS = [
   {
     year: "2026",
+    title: "Genetic characterization and zoonotic potential of G1-Lineage H9N2 avian influenza viruses isolated from poultry in Pakistan, 2023.",
+    url: "https://doi.org/10.1080/03079457.2026.2699158",
+    authors: "Kai-yun Tan<sup>*</sup>, Nousheen Arshad<sup>*</sup>, Salman L. Butt, Sun-Hak Lee, Ye-Ram Seo, Asif M. Rana, <b>Bitgoeul Kim</b>, <b>Chung-Young Lee</b>, Dong-Hun Lee<sup>*</sup>",
+    venue: "Avian Pathology (2026)", impact: ""
+  },
+  {
+    year: "2026",
     title: "From traumatic oral fibroma to fatal pneumonia: a multidisciplinary postmortem investigation in a long-term monitored Indo-Pacific bottlenose dolphin (Tursiops aduncus).",
     url: "https://link.springer.com/article/10.1186/s40850-026-00277-z",
     authors: "Ji-Hyung Park, Kyung Lee Lee, Young Min Lee, Ji Yeong Choi, Yu Ri Heo, Seung Mok Oh, Dasom Lee, Sunmin Kim, Heon Woo Lee, Cherry Tsz Ching Poon, Won Hee Hong, Hyo-Bang Moon, Sori Mok, <b>Chung-Young Lee</b>, <b>Min-Ah Kim</b>, Adams Hei Long Yuen, Seung Hyeok Seok, Byung Yeop Kim, Sang Wha Kim",
