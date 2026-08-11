@@ -11,6 +11,18 @@
    ============================================================ */
 window.JOURNAL_CLUB = [
   {
+    date: "2026.08.12",
+    title: "Mapping in-cell protein contact sites reveals hijacking of paraspeckles during influenza A virus infection",
+    citation: "Kotova I, Mühlberg L, Gilep K, Burtscher ML, Becher I, Yu D, Ziemianowicz D, Stanelle-Bertram S, Beck S, Baeg K, Grba A, Duss O, Gabriel G, Savitski MM, Liu F, Bogdanow B, Kosinski J. <i>Nature Microbiology</i> (2026) 11: 2247–2265.",
+    pdf: "assets/pdf/jc_2026-08-12_kotova-iav-paraspeckle-hijacking.pdf",
+    summary: [
+      "인플루엔자 A바이러스(IAV)가 감염 세포 안에서 어떤 숙주 단백질과 실제로 맞닿아 있는지는 대부분 세포를 깨뜨린 뒤 정제하는 방식(AP-MS, 효모이중잡종 등)으로 연구돼 왔는데, 이는 세포 안 실제 위치·구조 정보를 잃어버린다는 한계가 있었다. 저자들은 세포를 살아있는 상태 그대로 화학적으로 가교결합(cross-linking)한 뒤 질량분석으로 어떤 단백질끼리 몇 옹스트롬 이내로 붙어 있었는지 지도화하는 'in-cell cross-linking MS(XL-MS)' 기법을 인플루엔자 감염 세포에 적용해, 바이러스-숙주 단백질이 세포 안에서 실제로 접촉하는 지점을 처음으로 대규모로 지도화했다.",
+      "A549 폐상피세포에 H1N1(WSN주) 바이러스를 감염시키고, 새로 합성되는 바이러스 단백질만 표지해 농축하는 SHVIP 기법으로 감염 후 14시간째 가교결합·질량분석을 수행해 13,000개 이상의 잔기-잔기 교차연결을 얻었다. 여기에 AlphaFold 구조모델링, 근접결찰법(PLA)을 이용한 검증, siRNA 녹다운 스크리닝을 결합해 실제 기능까지 확인했다.",
+      "크게 두 가지를 발견했다. 첫째, 바이러스 표면 당단백질 헤마글루티닌(HA)이 소포체-골지체를 거쳐 성숙하는 경로에서 CANX, CALR, ERP29, LMAN1/2, TM9SF2 등 구체적인 숙주 인자들이 단계별로 관여함을 확인했고, M2 단백질의 새로운 결합 파트너로 아미노산 수송체 LAT1도 찾아냈다. 둘째, 더 흥미로운 발견으로 바이러스 핵단백질(NP)과 NS1이 핵 속 막 없는 소기관인 파라스펙클(paraspeckle, 긴 비암호화RNA NEAT1_2를 뼈대로 NONO·SFPQ·PSPC1 단백질이 모여 만드는 구조체)의 핵심 단백질들과 직접 접촉했고, 감염 4~8시간 만에 파라스펙클이 빠르게 분해되는 것을 여러 세포주·여러 바이러스주에서 공통으로 확인했다. 이 분해는 (1) NP·NS1의 직접적인 파라스펙클 단백질 결합, (2) PA-X 엔도뉴클레아제에 의한 NEAT1_2 RNA 분해, (3) 바이러스 RNA중합효소의 숙주 RNA중합효소II(Pol II) 억제로 인한 NEAT1_2 전사 감소, 세 가지가 겹쳐서 일어나는 것으로 나타났다. 파라스펙클을 이루던 SFPQ·hnRNPK 등 단백질을 RNA간섭으로 미리 없애자(즉 파라스펙클을 인위적으로 무너뜨리자) 오히려 바이러스 복제가 증가했는데, 이는 파라스펙클에 '갇혀있던' 이 단백질들이 풀려나 바이러스 증식에 이용되기 때문으로 해석됐다.",
+      "이 연구는 감염 세포 안에서 실제로 일어나는 수백 개의 바이러스-숙주 단백질 접촉 지점을 구조 수준까지 지도화한 최초의 자료로, 기존 세포 파쇄 기반 연구의 한계를 극복했다는 방법론적 의의가 크다. 특히 파라스펙클을 표적으로 삼아 그 안에 격리돼 있던 숙주 인자를 '탈취'하는 새로운 인플루엔자 면역회피·증식 전략을 규명했다는 점에서, NP·NS1·PA-X의 파라스펙클 결합이나 분해를 막는 것이 새로운 항바이러스 표적이 될 수 있음을 시사한다."
+    ]
+  },
+  {
     date: "2026.08.05",
     title: "Influenza A virus NS1 effector domain is required for PA-X-mediated host shutoff in infected cells",
     citation: "Bougon J, Kadijk E, Gallot-Lavallee L, Curtis BA, Landers M, Archibald JM, Khaperskyy DA. <i>Journal of Virology</i> (2024) 98(5): e01901-23.",
