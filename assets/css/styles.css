@@ -174,15 +174,41 @@ img { max-width: 100%; display: block; }
 
 /* decorative influenza virus particles floating in the hero background */
 .hero-virus-bg { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
-.hero-virus-bg .virus { position: absolute; animation: virus-float ease-in-out infinite; }
-.hero-virus-bg .v1 { width: 128px; top: 4%; right: 5%; color: var(--primary-lt); opacity: .16; animation-duration: 11s; }
-.hero-virus-bg .v2 { width: 76px; top: 52%; right: 24%; color: var(--accent); opacity: .13; animation-duration: 8s; animation-delay: -2s; }
-.hero-virus-bg .v3 { width: 56px; top: 16%; left: 3%; color: var(--hi); opacity: .18; animation-duration: 10s; animation-delay: -4s; }
-.hero-virus-bg .v4 { width: 96px; bottom: 3%; left: 20%; color: var(--primary); opacity: .12; animation-duration: 12s; animation-delay: -6s; }
-.hero-virus-bg .v5 { width: 44px; bottom: 20%; right: 42%; color: var(--accent); opacity: .14; animation-duration: 7s; animation-delay: -1s; }
-@keyframes virus-float {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-16px) rotate(10deg); }
+.hero-virus-bg .virus { position: absolute; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+.hero-virus-bg .v1 { width: 128px; top: 4%; right: 5%; color: var(--primary-lt); opacity: .17; animation-name: virus-drift-1; animation-duration: 9s; }
+.hero-virus-bg .v2 { width: 76px; top: 52%; right: 24%; color: var(--accent); opacity: .15; animation-name: virus-drift-2; animation-duration: 6.5s; animation-delay: -2s; }
+.hero-virus-bg .v3 { width: 56px; top: 16%; left: 3%; color: var(--hi); opacity: .2; animation-name: virus-drift-3; animation-duration: 8s; animation-delay: -3.5s; }
+.hero-virus-bg .v4 { width: 96px; bottom: 3%; left: 20%; color: var(--primary); opacity: .14; animation-name: virus-drift-4; animation-duration: 10s; animation-delay: -5s; }
+.hero-virus-bg .v5 { width: 44px; bottom: 20%; right: 42%; color: var(--accent); opacity: .16; animation-name: virus-drift-5; animation-duration: 5s; animation-delay: -1s; }
+
+@keyframes virus-drift-1 {
+  0%   { transform: translate(0, 0) rotate(0deg) scale(1); }
+  25%  { transform: translate(18px, -26px) rotate(22deg) scale(1.08); }
+  50%  { transform: translate(-14px, -40px) rotate(-14deg) scale(0.94); }
+  75%  { transform: translate(-24px, -12px) rotate(28deg) scale(1.05); }
+  100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+}
+@keyframes virus-drift-2 {
+  0%   { transform: translate(0, 0) rotate(0deg) scale(1); }
+  30%  { transform: translate(-22px, 18px) rotate(-30deg) scale(1.1); }
+  60%  { transform: translate(16px, 28px) rotate(18deg) scale(0.92); }
+  100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+}
+@keyframes virus-drift-3 {
+  0%   { transform: translate(0, 0) rotate(0deg) scale(1); }
+  50%  { transform: translate(20px, 30px) rotate(180deg) scale(1.1); }
+  100% { transform: translate(0, 0) rotate(360deg) scale(1); }
+}
+@keyframes virus-drift-4 {
+  0%   { transform: translate(0, 0) rotate(0deg) scale(1); }
+  35%  { transform: translate(-20px, -22px) rotate(-20deg) scale(1.07); }
+  70%  { transform: translate(22px, -10px) rotate(16deg) scale(0.95); }
+  100% { transform: translate(0, 0) rotate(0deg) scale(1); }
+}
+@keyframes virus-drift-5 {
+  0%   { transform: translate(0, 0) rotate(0deg) scale(1); }
+  40%  { transform: translate(-26px, -18px) rotate(-35deg) scale(1.12); }
+  100% { transform: translate(0, 0) rotate(0deg) scale(1); }
 }
 @media (max-width: 720px) {
   .hero-virus-bg .v3, .hero-virus-bg .v5 { display: none; }
