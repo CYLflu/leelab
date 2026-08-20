@@ -11,6 +11,18 @@
    ============================================================ */
 window.JOURNAL_CLUB = [
   {
+    date: "2026.08.19",
+    title: "Antigenic drift expands influenza viral escape pathways from recalled humoral immunity",
+    citation: "Maurer DP, Vu M, Schmidt AG. <i>Immunity</i> (2025) 58: 716–727.",
+    pdf: "assets/pdf/jc_2026-08-19_maurer-antigenic-drift-escape.pdf",
+    summary: [
+      "인플루엔자에 반복 노출(감염·백신접종)되면 몸은 매번 새로 면역반응을 만드는 대신, 과거에 만들어둔 기억 B세포를 다시 불러내 추가로 친화도 성숙(affinity maturation)시켜 더 넓은 범위의 균주에 반응하도록 만든다 — 이른바 '면역 각인(immune imprinting)' 현상이다. 그런데 이렇게 넓어진 항체 반응에도 불구하고 인플루엔자 바이러스는 계속 변이를 축적하며 회피하는데, 그 이유는 잘 알려져 있지 않았다. 저자들은 사람에서 분리된 항체 계통을 이용해 이 역설을 규명하고자 했다.",
+      "혈구응집소(HA) 머리 부위(head domain)에 가능한 모든 아미노산 돌연변이를 담은 딥뮤테이셔널스캐닝(deep mutational scanning) 바이러스 라이브러리를 제작하고, 사람에게서 분리된 항체 계통의 '미성숙 공통조상 항체(UCA, 즉 첫 감염 당시의 항체)'와 그로부터 친화도 성숙을 거친 '성숙 항체'를 각각 사용해 바이러스를 선택압에 노출시켰다. HA의 보존된 부위인 수용체결합부위(RBS)와 lateral patch를 표적으로 하는 여러 항체 계통을 대상으로, 항체를 처음 유도했던 균주(eliciting strain)와 그 이후 항원이 drift된 균주 각각에서 바이러스가 얼마나 쉽게 회피 돌연변이를 얻는지 비교했다.",
+      "친화도 성숙은 항체를 처음 유도한 균주에 대해서는 회피 돌연변이 수를 56~100%까지 줄여, 일부 위치에서는 회피 자체가 아예 불가능하게 만들었다. 그러나 같은 성숙 항체라도 이후 항원이 drift된 균주에서는 이야기가 달랐다 — 중화력은 비슷하게 유지되는데도 회피 가능한 돌연변이 수가 최대 수십 개까지 급격히 늘어났다. 그 이유는 상위성(epistasis)이었다: 원래 균주에서는 혼자서 회피를 일으키지 못하던 돌연변이가, drift로 이미 여러 배경 돌연변이가 쌓인 균주에서는 다른 돌연변이와 조합되어 항체 결합을 무력화시켰다(예: G189D가 K133a나 G156E와 함께 있을 때만 회피 가능). 이런 패턴은 서로 다른 항체 계통·표적 부위·기증자에서 공통으로 관찰됐다.",
+      "이 연구는 반복 노출로 넓어진 '기억 기반' 항체 반응이 처음 유도한 균주에는 강력한 방어벽이 되지만, 바이러스가 항원적으로 drift하고 나면 상위성 효과 때문에 오히려 회피 경로가 크게 늘어난다는 것을 보여준다 — 즉 면역 각인이 인플루엔자가 사람 집단 안에서 계속 진화할 수 있게 해주는 한 축임을 시사한다. 저자들은 과거 균주를 순차적으로 접종해 보존 부위 쪽으로 친화도 성숙을 '유도'하려는 기존 백신 전략 대신, 미래에 나타날 항원 변이를 예측해 선제적으로 접종하거나 새로운(de novo) 반응을 유도하는 방향이 차세대 인플루엔자·범용 백신 설계에 더 유리할 수 있다고 제안한다."
+    ]
+  },
+  {
     date: "2026.08.12",
     title: "Mapping in-cell protein contact sites reveals hijacking of paraspeckles during influenza A virus infection",
     citation: "Kotova I, Mühlberg L, Gilep K, Burtscher ML, Becher I, Yu D, Ziemianowicz D, Stanelle-Bertram S, Beck S, Baeg K, Grba A, Duss O, Gabriel G, Savitski MM, Liu F, Bogdanow B, Kosinski J. <i>Nature Microbiology</i> (2026) 11: 2247–2265.",
