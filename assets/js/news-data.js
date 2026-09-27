@@ -10,6 +10,16 @@
    ============================================================ */
 window.NEWS = [
   {
+    date: "2026.09.11",
+    title: "Bitgoeul Kim wins Best Abstract Award 🏆",
+    images: ["assets/img/news_20260911_1.jpg", "assets/img/news_20260911_2.jpg"],
+    body: [
+      "우리 실험실 김빛고을 학생이 대한인수공통감염병학회에서 우수초록상을 받았습니다.",
+      "수상 논문: \"Pathogenicity and zoonotic potential of a novel pdm09-lineage H1N2 swine influenza A virus spatiotemporally linked to transboundary pig trade\"",
+      "축하드립니다!"
+    ]
+  },
+  {
     date: "2026.09.01",
     title: "Yeji Seo selected for NRF Master's Student Research Grant 🎉",
     image: "",
