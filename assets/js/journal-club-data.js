@@ -35,6 +35,18 @@ window.JOURNAL_CLUB = [
     ]
   },
   {
+    date: "2026.09.02",
+    title: "Mosaic nanoparticle display of diverse influenza virus hemagglutinins elicits broad B cell responses",
+    citation: "Kanekiyo M, Joyce MG, Gillespie RA, Gallagher JR, Andrews SF, Yassine HM, Wheatley AK, Fisher BE, Ambrozak DR, Creanga A, Leung K, Yang ES, Boyoglu-Barnum S, Georgiev IS, Tsybovsky Y, Prabhakaran MS, Andersen H, Kong WP, Baxa U, Zephir KL, Ledgerwood JE, Koup RA, Kwong PD, Harris AK, McDermott AB, Mascola JR, Graham BS. <i>Nature Immunology</i> (2019) 20: 362–372.",
+    pdf: "assets/pdf/jc_2026-09-02_kanekiyo-mosaic-nanoparticle-ha.pdf",
+    summary: [
+      "계절 인플루엔자 백신은 백신주와 실제 유행주 사이의 항원 불일치가 생기면 효능이 크게 떨어진다는 근본적인 한계가 있다. HA에는 항체가 광범위하게 인식할 수 있는 보존 부위(수용체결합부위 RBS, 줄기 부위 stem)가 실제로 존재하지만, 백신접종·감염 시 B세포 반응은 변이가 심한 head 부위를 표적으로 하는 균주특이적 항체에 압도적으로 편중(면역우세, immunodominance)되어, 넓은 반응을 낼 수 있는 '열세' B세포는 잘 활성화되지 못한다. 저자들은 항원을 디스플레이하는 방식 자체를 바꿔서 이 면역우세 구조를 깨뜨릴 수 있는지를 검증했다.",
+      "자가조립 페리틴 나노입자에 HA의 초가변 부위인 수용체결합영역(RBD)을 붙이는 방식으로, 한 입자 표면에 서로 다른 H1N1 균주의 RBD를 무작위로 섞어 배치한 '모자이크(mosaic)' 나노입자를 만들었다. 이론적 근거는, 같은 균주 RBD끼리 뭉쳐 있는 '동종(homotypic)' 입자에서는 균주특이적 B세포가 이웃한 동일 항원에 양쪽 팔로 동시에 결합(avidity 이득)할 수 있지만, 모자이크 입자에서는 이웃이 서로 다른 균주라 균주특이적 B세포는 이 이득을 못 받고 대신 여러 균주에 공통으로 결합할 수 있는 교차반응 B세포만 이 avidity 이득을 누리게 된다는 것이다. 마우스에서 모자이크 입자와, 같은 RBD들을 각각 동종 입자로 만들어 섞은 '혼합(admix)' 대조군을 비교했다.",
+      "모자이크 RBD 나노입자는 혼합 대조군보다 훨씬 폭넓은 항체 반응(HAI·중화)을 유도했고, 이 효과는 한 입자에 섞는 균주 수(valence 2~8)가 늘수록 더 커졌다. 모자이크 입자로 면역한 마우스에서 실제로 광범위 중화항체(441D6)를 분리했는데, 이 항체는 약 90년(1918년대~2009년 판데믹주)에 걸친 H1N1 균주를 모두 중화시켰고 — 기존에 잘 알려진 RBS 표적 광범위중화항체(5J8, CH65, C05)보다도 넓은 범위였다. 구조분석 결과 441D6은 RBS나 stem이 아닌, 지금까지 알려지지 않았던 HA head의 새로운 보존 부위를 인식했고, 수용체 결합을 막는 대신 바이러스 입자를 뭉치게 하는 방식으로 중화시켰다. 나아가 건강한 사람 26명의 혈청에서도 이 441D6 부위를 표적으로 하는 항체가 확인되어, 사람도 이런 광범위 항체를 만들 수 있는 B세포 레퍼토리는 가지고 있지만 평소엔 잘 드러나지 않는다는 것을 보여주었다.",
+      "이 연구는 항원을 한 입자에 여러 균주로 '모자이크'하게 배치하는 것만으로 균주특이적 면역우세를 우회해 원래는 열세였던 광범위 교차반응 B세포를 끌어낼 수 있음을 보이고, 그 과정에서 이전에 알려지지 않았던 HA의 새로운 취약 부위(441D6 에피토프)까지 발견한 사례다. 범용 인플루엔자 백신 설계에 실제로 적용 가능한 항원 디스플레이 전략과, 새로운 백신 표적 부위를 동시에 제시했다는 점에서 의미가 크다."
+    ]
+  },
+  {
     date: "2026.08.19",
     title: "Antigenic drift expands influenza viral escape pathways from recalled humoral immunity",
     citation: "Maurer DP, Vu M, Schmidt AG. <i>Immunity</i> (2025) 58: 716–727.",
