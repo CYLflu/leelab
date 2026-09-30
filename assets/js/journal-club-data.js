@@ -11,6 +11,18 @@
    ============================================================ */
 window.JOURNAL_CLUB = [
   {
+    date: "2026.09.30",
+    title: "An endonuclease inhibitor unlocks the PA-X shutoff mechanism in influenza A virus",
+    citation: "Oishi K, Sano K, Yamayoshi S, Miyakawa K, Hasegawa H, Kawaoka Y. <i>Cell Reports</i> (2026) 45: 117921.",
+    pdf: "assets/pdf/jc_2026-09-30_oishi-pax-endonuclease-inhibitor.pdf",
+    summary: [
+      "PA-X는 인플루엔자 A바이러스의 대표적인 host shutoff 단백질이지만, 정확히 어떤 RNA를 표적으로 하는지, RNA에 직접 결합하는지, 어떤 구조적 특징이 이를 매개하는지는 오랫동안 불분명했다. 가장 큰 이유는 실험적 난점이었다: 플라스미드로 PA-X를 발현시키면 PA-X가 자기 자신의 mRNA까지 잘라버려서, 세포 내 PA-X 단백질량이 극히 낮게 유지되어 정제·생화학적 분석 자체가 어려웠다. 저자들은 이 '자가 파괴' 문제를 해결하기 위해 PA-X의 엔도뉴클레아제 활성을 억제하는 물질을 이용하는 전략을 세웠다.",
+      "이미 승인된 항인플루엔자제 발록사비르(baloxavir marboxil, Xofluza)의 활성 대사체인 발록사비르 산(BXA)은 PA-X와 촉매부위(N말단 엔도뉴클레아제)를 공유하는 PA 단백질의 cap-snatching 활성을 억제하는 약물이다. 저자들은 BXA가 PA-X의 shutoff 활성도 억제할 것이라 가정하고 처리한 결과, PA-X의 자가분해가 차단되면서 세포 내 발현량이 극적으로 늘었다(IC50 약 938 nM). 이 효과는 H1N1, H1N1pdm09, H3N2, H5N1, H7N9은 물론 박쥐유래 H17N10·H18N11의 PA-X까지 다양한 서브타입에서 공통으로 나타났다. 이를 이용해 처음으로 포유세포에서 충분한 양의 야생형 PA-X 단백질을 정제해, 정밀한 생화학적 특성 분석을 수행할 수 있었다.",
+      "정제한 PA-X는 핵과 세포질에 모두 분포했고, PA에는 없는 PA-X만의 독특한 C말단 염기성 아미노산 영역을 통해 RNA에 직접 결합했다(이 부위를 글루탐산으로 치환한 6E 돌연변이는 RNA 결합력이 크게 떨어짐). PA-X는 단일가닥 RNA를 광범위하게 절단했는데, 이전에 제안됐던 특정 서열(GCUG) 선호성은 확인되지 않았고 — tRNA, 구조화된 RNA, GCUG를 포함한 RNA 등 다양한 기질에서 뚜렷한 서열 특이성 없이 절단이 일어났다. 가장 흥미로운 발견은, PA-X가 순수한(naked) 바이러스 RNA는 자유롭게 자르지만, 바이러스 리보핵단백질(vRNP, vRNA가 NP·중합효소와 결합한 실제 바이러스 안의 형태) 안에 들어있는 vRNA는 PA-X의 절단으로부터 뚜렷하게 보호된다는 점이었다 — RNase A 같은 비특이적 뉴클레아제는 vRNP 안의 RNA도 분해할 수 있었기 때문에, 이 저항성은 PA-X에 특이적인 현상이었다.",
+      "이 결과들을 종합하면 PA-X의 shutoff 전략에 대한 일관된 모델이 만들어진다: PA-X는 서열 특이성 없이 닥치는 대로 단일가닥 RNA를 잘라 숙주(및 잠재적으로 바이러스) mRNA를 광범위하게 분해하지만, 바이러스 자신의 유전체 RNA는 vRNP 구조로 포장되어 있어 이 '무차별 공격'에서 안전하게 보호된다는 것이다. 즉 바이러스는 정교한 서열 인식 없이도 자기 것과 남의 것을 구별해 숙주 유전자 발현만 효율적으로 억제할 수 있다. 또한 이 연구는 오랫동안 다루기 힘들었던 PA-X를 승인된 항바이러스제(BXA)를 이용해 대량으로 얻는 실용적인 방법론을 제시해, 향후 PA-X의 구조·기능 연구에 중요한 도구를 제공한다."
+    ]
+  },
+  {
     date: "2026.09.23",
     title: "Dual receptor-binding, infectivity, and transmissibility of an emerging H2N2 low pathogenicity avian influenza virus",
     citation: "Sun J, Zheng T, Jia M, Wang Y, Yang J, Liu Y, Yang P, Xie Y, Sun H, Tong Q, Li J, Yang J, Fu G, Shi Y, Qi J, Liu W, Liu J, Tian W, Gao GF, Bi Y. <i>Nature Communications</i> (2024) 15: 10012.",
