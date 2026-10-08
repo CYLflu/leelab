@@ -29,6 +29,15 @@ window.NEWS = [
     ]
   },
   {
+    date: "2026.08.31",
+    title: "Jeong-Hoo Seo & Yeji Seo selected as MSIT Outstanding Master's Scholars 🎉",
+    image: "assets/img/news_20260831.jpg",
+    body: [
+      "우리 실험실 서정후, 서예지 학생이 과학기술정보통신부에서 주관하는 석사우수(이공계) 장학생으로 선발되었습니다.",
+      "축하합니다!"
+    ]
+  },
+  {
     date: "2026.08.12",
     title: "Lab outing",
     image: "assets/img/news_20260812.jpg",
