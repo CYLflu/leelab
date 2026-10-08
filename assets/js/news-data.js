@@ -10,6 +10,15 @@
    ============================================================ */
 window.NEWS = [
   {
+    date: "2026.10.01",
+    title: "Prof. Chung-Young Lee promoted to Associate Professor 🎉",
+    image: "assets/img/news_promotion.jpg",
+    body: [
+      "우리 실험실 이충용 교수가 2026년 10월 1일자로 부교수로 승진하였습니다.",
+      "10월 7일에는 실험실 구성원들과 함께 승진 기념 행사를 가졌습니다. 축하드립니다!"
+    ]
+  },
+  {
     date: "2026.09.11",
     title: "Bitgoeul Kim wins Best Abstract Award 🏆",
     images: ["assets/img/news_20260911_1.jpg", "assets/img/news_20260911_2.jpg"],
