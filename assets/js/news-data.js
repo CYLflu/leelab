@@ -10,6 +10,16 @@
    ============================================================ */
 window.NEWS = [
   {
+    date: "2026.10.21~23",
+    title: "Jeong-Hoo Seo wins Outstanding Poster Award at KJSIM 2026 🏆",
+    image: "assets/img/news_20261021.jpg",
+    body: [
+      "우리 실험실 서정후 학생이 대한미생물학회 추계학술대회, The 17th Korea-Japan International Symposium on Microbiology(KJSIM)에서 우수 포스터상을 받았습니다.",
+      "수상 포스터: \"Genomic Characterization of Respiratory Syncytial Virus in South Korea after Nirsevimab Introduction\"",
+      "축하합니다!"
+    ]
+  },
+  {
     date: "2026.10.01",
     title: "Prof. Chung-Young Lee promoted to Associate Professor 🎉",
     image: "assets/img/news_promotion.jpg",
