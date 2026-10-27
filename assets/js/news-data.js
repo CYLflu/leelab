@@ -20,6 +20,15 @@ window.NEWS = [
     ]
   },
   {
+    date: "2026.10.21~23",
+    title: "대한미생물학회 추계학술대회 (KJSIM 2026)",
+    images: ["assets/img/news_20261021_kjsim_1.jpg", "assets/img/news_20261021_kjsim_2.jpg"],
+    body: [
+      "대한미생물학회 추계학술대회(The 17th Korea-Japan International Symposium on Microbiology, KJSIM)에 우리 실험실 구성원 모두가 참석하여 공부했습니다.",
+      "이충용 교수는 이번 학회에서 발표도 했습니다."
+    ]
+  },
+  {
     date: "2026.10.01",
     title: "Prof. Chung-Young Lee promoted to Associate Professor 🎉",
     image: "assets/img/news_promotion.jpg",
