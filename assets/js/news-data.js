@@ -11,13 +11,20 @@
 window.NEWS = [
   {
     date: "2026.11.03",
-    title: "5th Joint Meeting of Veterinary Science in East Asia & 2026 KSVS Autumn International Symposium — Jeju 🏆",
-    images: ["assets/img/news_20261103_1.jpg", "assets/img/news_20261103_2.jpg"],
+    title: "Bitgoeul Kim wins Excellent Poster Award at KSVS 2026 🏆",
+    image: "assets/img/news_20261103_2.jpg",
     body: [
-      "우리 실험실 구성원들과 제주 ICC에서 열린 The 5th Joint Meeting of Veterinary Science in East Asia & 2026 KSVS Autumn International Symposium에 참석했습니다.",
-      "김빛고을 학생이 우수포스터상(Excellent Poster Award)을 받았습니다.",
+      "우리 실험실 김빛고을 학생이 제주에서 열린 The 5th Joint Meeting of Veterinary Science in East Asia & 2026 KSVS Autumn International Symposium에서 우수포스터상(Excellent Poster Award)을 받았습니다.",
       "수상 포스터: \"Pathogenicity and zoonotic potential of a novel pdm09-lineage H1N2 swine influenza A virus spatiotemporally linked to transboundary pig trade\"",
       "축하합니다!"
+    ]
+  },
+  {
+    date: "2026.11.03",
+    title: "대한수의학회 추계학술대회 (KSVS 2026, 제주)",
+    image: "assets/img/news_20261103_1.jpg",
+    body: [
+      "우리 실험실 구성원들과 제주 ICC에서 열린 The 5th Joint Meeting of Veterinary Science in East Asia & 2026 KSVS Autumn International Symposium에 참석했습니다."
     ]
   },
   {
