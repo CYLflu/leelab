@@ -10,6 +10,17 @@
    ============================================================ */
 window.NEWS = [
   {
+    date: "2026.11.03",
+    title: "5th Joint Meeting of Veterinary Science in East Asia & 2026 KSVS Autumn International Symposium — Jeju 🏆",
+    images: ["assets/img/news_20261103_1.jpg", "assets/img/news_20261103_2.jpg"],
+    body: [
+      "우리 실험실 구성원들과 제주 ICC에서 열린 The 5th Joint Meeting of Veterinary Science in East Asia & 2026 KSVS Autumn International Symposium에 참석했습니다.",
+      "김빛고을 학생이 우수포스터상(Excellent Poster Award)을 받았습니다.",
+      "수상 포스터: \"Pathogenicity and zoonotic potential of a novel pdm09-lineage H1N2 swine influenza A virus spatiotemporally linked to transboundary pig trade\"",
+      "축하합니다!"
+    ]
+  },
+  {
     date: "2026.10.21~23",
     title: "Jeong-Hoo Seo wins Outstanding Poster Award at KJSIM 2026 🏆",
     image: "assets/img/news_20261021.jpg",
