@@ -9,6 +9,13 @@
 window.PUBLICATIONS = [
   {
     year: "2026",
+    title: "Pathogenicity and zoonotic potential of a novel pdm09-lineage H1N2 swine influenza A virus spatiotemporally linked to transboundary pig trade.",
+    url: "https://doi.org/10.1371/journal.ppat.1014779",
+    authors: "Seung-Chai Kim<sup>*</sup>, Hwan-Ju Kim<sup>*</sup>, <b>Bitgoeul Kim</b><sup>*</sup>, Gyeong-Seo Park, Byeong-Joo Seo, Chonghan Kim, Chang-Gi Jeong, Jae-Ku Oem, Sung-Hyun Moon, <b>Se-Kyung Jung</b>, Yeonsu Oh, Ho-Seong Cho, Yu Kyung Kim, <b>Chung-Young Lee</b><sup>*</sup>, Won-Il Kim<sup>*</sup>",
+    venue: "PLoS Pathogens (2026) 22(11): e1014779", impact: ""
+  },
+  {
+    year: "2026",
     title: "Genetic characterization and zoonotic potential of G1-Lineage H9N2 avian influenza viruses isolated from poultry in Pakistan, 2023.",
     url: "https://doi.org/10.1080/03079457.2026.2699158",
     authors: "Kai-yun Tan<sup>*</sup>, Nousheen Arshad<sup>*</sup>, Salman L. Butt, Sun-Hak Lee, Ye-Ram Seo, Asif M. Rana, <b>Bitgoeul Kim</b>, <b>Chung-Young Lee</b>, Dong-Hun Lee<sup>*</sup>",
@@ -20,13 +27,6 @@ window.PUBLICATIONS = [
     url: "https://link.springer.com/article/10.1186/s40850-026-00277-z",
     authors: "Ji-Hyung Park, Kyung Lee Lee, Young Min Lee, Ji Yeong Choi, Yu Ri Heo, Seung Mok Oh, Dasom Lee, Sunmin Kim, Heon Woo Lee, Cherry Tsz Ching Poon, Won Hee Hong, Hyo-Bang Moon, Sori Mok, <b>Chung-Young Lee</b>, <b>Min-Ah Kim</b>, Adams Hei Long Yuen, Seung Hyeok Seok, Byung Yeop Kim, Sang Wha Kim",
     venue: "BMC Zoology (2026)", impact: ""
-  },
-  {
-    year: "2026",
-    title: "Pathogenicity and zoonotic potential of a novel pdm09-lineage H1N2 swine influenza A virus spatiotemporally linked to transboundary pig trade.",
-    url: "",
-    authors: "Seung-Chai Kim, Hwan-Ju Kim, <b>Bitgoeul Kim</b>, Gyeong-Seo Park, Byeong-Joo Seo, Chonghan Kim, Chang-Gi Jeong, Jae-Ku Oem, Sung-Hyun Moon, <b>Se-Kyung Jung</b>, Yeonsu Oh, Ho-Seong Cho, Yu Kyung Kim, <b>Chung-Young Lee</b><sup>*</sup>, Won-Il Kim<sup>*</sup>",
-    venue: "Under review", impact: ""
   },
   {
     year: "2026",
