@@ -10,6 +10,17 @@
    ============================================================ */
 window.NEWS = [
   {
+    date: "2026.11.06",
+    title: "Prof. Chung-Young Lee named among the World's Top 2% Scientists 🎉",
+    image: "assets/img/news_top2.jpg",
+    body: [
+      "우리 실험실 이충용 교수가 최근 1년 기준 세계 상위 2% 연구자(World Top 2% Scientist)로 선정되었습니다.",
+      "이 리스트는 미국 스탠퍼드대학교와 엘스비어(Elsevier)가 Scopus 데이터를 기반으로 발표하는 전 세계 상위 2% 연구자 명단입니다. 축하합니다!",
+      "Prof. Chung-Young Lee of our lab has been selected as one of the World's Top 2% Scientists in the single recent-year ranking.",
+      "The list is published by Stanford University and Elsevier based on Scopus data. Congratulations!"
+    ]
+  },
+  {
     date: "2026.11.03",
     title: "Bitgoeul Kim wins Excellent Poster Award at KSVS 2026 🏆",
     image: "assets/img/news_20261103_2.jpg",
